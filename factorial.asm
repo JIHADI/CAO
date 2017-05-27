@@ -1,4 +1,5 @@
-readnum macro num 
+
+readnumreadnum macro num 
         mov ah,01h
         int 21h
         Sub al,'0'
