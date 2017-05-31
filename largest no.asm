@@ -1,6 +1,6 @@
 
 readnum macro num 
-    mov ah,01h
+    mov ah,01h 
     int 21h
     sub al,'0'
     mov bh,0ah
