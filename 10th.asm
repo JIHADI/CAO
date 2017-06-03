@@ -43,7 +43,7 @@ start:
 nextread:
         printstring msg2
         readnum temp
-        mov al,temp
+        mov al,temp 
         mov [si],al
         inc si
         loop nextread
