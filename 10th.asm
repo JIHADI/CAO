@@ -21,7 +21,7 @@ endm
 data segment
     cr equ 0dh
     lf equ 0ah
-    msg1 db cr,lf,'How many numbers : $'
+    msg1 db cr,lf,'How many numbers : $' 
     msg2 db cr,lf,'Enter number: $'
     msg3 db,cr,lf,'Sum: $'
     ntable db 100 dup(0)
