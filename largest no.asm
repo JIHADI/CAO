@@ -28,7 +28,7 @@ data segment
     num db ?
     temp db ?
     result db 20 dup(0)
-data ends
+data ends 
 
     code segment
     assume cs:code,ds:data
