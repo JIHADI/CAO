@@ -16,7 +16,7 @@ printstring macro msg
     mov dx,offset msg
     int 21h
 endm
-
+ 
 data segment
     cr equ 0dh
     lf equ 0ah
