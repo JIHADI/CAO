@@ -21,7 +21,7 @@ data segment
     cr equ 0dh
     lf equ 0ah
     msg1 db cr,lf,'How many Numbers > $'
-    msg2 db cr,lf,'Enter the Number > $'
+    msg2 db cr,lf,'Enter the Number > $' 
     msg3 db cr,lf,'Largest Number > $'
     ntable db 100(0)
 
