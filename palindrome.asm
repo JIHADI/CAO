@@ -17,7 +17,7 @@ data ends
 
 code segment
     assume cs:code,ds:data
-    Start:
+    Start: 
         mov ax,data
         mov ds,ax       
         string msg1
