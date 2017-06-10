@@ -20,7 +20,7 @@ code segment
     Start: 
         mov ax,data
         mov ds,ax       
-        string msg1
+        string msg1 
         mov si,offset Buff
         rdchar1:
         mov ah,01h
