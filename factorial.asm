@@ -17,7 +17,7 @@ printstring macro msg
         int 21h   
 endm   
 
-data segment
+data segment 
         cr equ 0dh
         lf equ 0ah
         msg1 db cr,lf,'Enter  the Number: $' 
