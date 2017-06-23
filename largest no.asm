@@ -34,7 +34,7 @@ data ends
     assume cs:code,ds:data
 start:
     mov ax,data
-    mov ds,ax
+    mov ds,ax 
     printstring msg1
     readnum num 
     mov si,offset ntable
