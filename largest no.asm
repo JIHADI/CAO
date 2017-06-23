@@ -25,7 +25,7 @@ data segment
     msg3 db cr,lf,'Largest Number > $'
     ntable db 100(0)
 
-    num db ?
+    num db ? 
     temp db ?
     result db 20 dup(0)
 data ends 
