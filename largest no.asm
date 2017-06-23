@@ -75,7 +75,7 @@ nextread:
         push bx
         push cx
         push dx
-        push si
+        push si 
     
         mov cx,00h
         mov bx,0ah
