@@ -42,7 +42,7 @@ code segment
         jmp label3
     
     label2:
-        mov si,offset Buff
+        mov si,offset Buff 
         add si,bx
         mov di,offset revbuff
         mov cx,bx
