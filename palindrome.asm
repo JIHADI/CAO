@@ -60,7 +60,7 @@ code segment
         mov si,offset buff
         mov di,offset revbuff
         mov cx,bx
-    
+     
     nextchar:
         mov al,[si]
         cmp al,[di]
