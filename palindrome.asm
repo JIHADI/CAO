@@ -46,7 +46,7 @@ code segment
         add si,bx
         mov di,offset revbuff
         mov cx,bx
-        
+         
     label4:
         dec si
         mov al,[si]
