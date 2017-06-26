@@ -25,7 +25,7 @@ code segment
         rdchar1:
         mov ah,01h
         int 21h
-        mov [si],al
+        mov [si],al 
         inc si
         cmp al,cr
         jne rdchar1
