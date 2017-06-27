@@ -1,5 +1,5 @@
 readnum macro num  
-        mov ah,01h 
+        mov ah,01h  
         int 21h  
         Sub al,'0'  
         mov bh,0ah 
@@ -18,7 +18,7 @@ printstring macro msg
 endm   
 
 data segment 
-        cr equ 0dh
+        cr equ 0dh 
         lf equ 0ah
         msg1 db cr,lf,'Enter  the Number: $' 
         msg2 db cr,lf,'The Factorial of the number is: $'
