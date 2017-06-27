@@ -53,7 +53,7 @@ skip:
         int 21h
 hex2asc proc near  
         push ax
-        push bx
+        push bx 
         push cx
         push dx
         push si
