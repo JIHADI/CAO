@@ -67,7 +67,7 @@ nextread:
         call hex2asc
         printstring msg3
         printstring result
-        mov ax,4c00h 
+        mov ax,4c00h  
         int 21h
     
     hex2asc proc near
