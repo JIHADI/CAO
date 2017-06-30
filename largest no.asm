@@ -31,7 +31,7 @@ data segment
 data ends 
  
     code segment
-    assume cs:code,ds:data
+    assume cs:code,ds:data  
 start:
     mov ax,data
     mov ds,ax 
