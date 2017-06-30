@@ -42,7 +42,7 @@ start:
     mov cl,num
 nextread:
     printstring msg2
-    readnum temp 
+    readnum temp  
     mov al,temp
     mov [si],al
     inc si
