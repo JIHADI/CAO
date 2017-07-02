@@ -22,7 +22,7 @@ data segment
         lf equ 0ah
         msg1 db cr,lf,'Enter  the Number: $' 
         msg2 db cr,lf,'The Factorial of the number is: $'
-        msg3 db cr,lf,'$'
+        msg3 db cr,lf,'$' 
         num db ?
         result db 20 dup('$')
 data ends
