@@ -8,7 +8,7 @@ readnum macro num
         mov ah,01h 
         int 21h 
         Sub al,'0'  
-        add num,al
+        add num,al 
 endm
 
 printstring macro msg 
