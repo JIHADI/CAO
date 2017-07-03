@@ -23,7 +23,7 @@ start:
         mov si,offset Buff        
 rdchar1:                         
         mov ah,01h               
-        int 21h                  
+        int 21h                   
         mov[si],al
         inc si                    
         cmp al,cr                 
