@@ -20,7 +20,7 @@ start:
         mov ax,data
         mov ds,ax
         string msg1              
-        mov si,offset Buff       
+        mov si,offset Buff        
 rdchar1:                         
         mov ah,01h               
         int 21h                  
