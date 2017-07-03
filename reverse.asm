@@ -7,7 +7,7 @@ endm
 data segment
 cr equ 0dh
 lf equ 0ah
-Buff db 80 dup(0) 
+Buff db 80 dup(0)  
 revbuff db 80 dup(0)
 msg1 db cr,lf ,'Enter the String > $ '
 msg2 db cr,lf ,'The Reverse of the String is > $ '
