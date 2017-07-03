@@ -25,7 +25,7 @@ rdchar1:
         mov ah,01h               
         int 21h                  
         mov[si],al
-        inc si                   
+        inc si                    
         cmp al,cr                 
         jne rdchar1              
         
