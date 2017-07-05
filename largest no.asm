@@ -38,7 +38,7 @@ start:
     printstring msg1
     readnum num 
     mov si,offset ntable
-    mov ch,00
+    mov ch,00 
     mov cl,num
 nextread:
     printstring msg2
