@@ -33,7 +33,7 @@ data ends
     code segment
     assume cs:code,ds:data  
 start:
-    mov ax,data
+    mov ax,data 
     mov ds,ax 
     printstring msg1
     readnum num 
