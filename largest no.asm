@@ -73,7 +73,7 @@ nextread:
     hex2asc proc near 
         push ax
         push bx
-        push cx
+        push cx 
         push dx
         push si 
     
