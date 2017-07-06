@@ -50,7 +50,7 @@ skip:
         printstring result
         printstring msg3
         mov ax,4c00h
-        int 21h
+        int 21h 
 hex2asc proc near  
         push ax
         push bx 
