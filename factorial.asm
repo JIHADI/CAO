@@ -43,7 +43,7 @@ rpt:
         mul cx
         loop rpt
 skip:
-        mov si,offset result 
+        mov si,offset result  
         call hex2asc 
         
         printstring msg2
