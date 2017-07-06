@@ -32,7 +32,7 @@ start:
         mov ax,data
         mov ds,ax
         printstring msg1
-        readnum num
+        readnum num 
         mov ax,01
         mov ch,00
         mov cl,num
