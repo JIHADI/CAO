@@ -60,7 +60,7 @@ nextread:
     skip:
         inc cl
         jmp nextchk
-    nomore:
+    nomore: 
         mov ah,00
         mov al,bl
         mov si,offset result
