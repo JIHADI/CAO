@@ -26,7 +26,7 @@ data segment
     ntable db 100(0)
 
     num db ? 
-    temp db ?
+    temp db ? 
     result db 20 dup(0)
 data ends 
  
