@@ -62,7 +62,7 @@ nextread:
         jmp nextchk
     nomore: 
         mov ah,00
-        mov al,bl
+        mov al,bl 
         mov si,offset result
         call hex2asc
         printstring msg3
