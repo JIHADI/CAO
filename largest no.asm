@@ -47,7 +47,7 @@ nextread:
     mov [si],al
     inc si
     loop nextread
-    mov si,offset ntable
+    mov si,offset ntable 
     mov bl,[si]
     mov cl,01
     nextchk:
