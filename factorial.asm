@@ -41,7 +41,7 @@ start:
 rpt:
         mov dx,00
         mul cx
-        loop rpt
+        loop rpt 
 skip:
         mov si,offset result  
         call hex2asc 
