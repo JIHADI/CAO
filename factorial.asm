@@ -28,7 +28,7 @@ data segment
 data ends
 Code Segment
         assume cs:code,ds:data
-start:
+start: 
         mov ax,data
         mov ds,ax
         printstring msg1
