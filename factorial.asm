@@ -38,7 +38,7 @@ start:
         mov cl,num
         cmp cx,00
         je skip  
-rpt:
+rpt: 
         mov dx,00
         mul cx
         loop rpt  
