@@ -49,7 +49,7 @@ nextread:
     loop nextread
     mov si,offset ntable 
     mov bl,[si]
-    mov cl,01
+    mov cl,01 
     nextchk:
         inc si
         cmp cl,num
