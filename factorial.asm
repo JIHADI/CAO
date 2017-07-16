@@ -47,7 +47,7 @@ skip:
         call hex2asc 
         
         printstring msg2
-        printstring result 
+        printstring result  
         printstring msg3
         mov ax,4c00h
         int 21h  
