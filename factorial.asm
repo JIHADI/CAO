@@ -37,7 +37,7 @@ start:
         mov ch,00
         mov cl,num
         cmp cx,00
-        je skip 
+        je skip  
 rpt:
         mov dx,00
         mul cx
