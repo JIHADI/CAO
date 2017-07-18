@@ -71,7 +71,7 @@ nextread:
         int 21h
     
     hex2asc proc near 
-        push ax 
+        push ax  
         push bx
         push cx 
         push dx
