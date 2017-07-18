@@ -54,7 +54,7 @@ nextread:
         inc si
         cmp cl,num
         je nomore
-        cmp bl,[si]
+        cmp bl,[si] 
         jge skip
         mov bl,[si]
     skip:
