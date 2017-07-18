@@ -45,7 +45,7 @@ nextread:
     readnum temp  
     mov al,temp
     mov [si],al
-    inc si
+    inc si 
     loop nextread
     mov si,offset ntable 
     mov bl,[si]
