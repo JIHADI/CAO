@@ -35,7 +35,7 @@ data ends
 start:
     mov ax,data 
     mov ds,ax 
-    printstring msg1
+    printstring msg1 
     readnum num 
     mov si,offset ntable
     mov ch,00 
