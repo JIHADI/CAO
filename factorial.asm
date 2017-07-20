@@ -9,7 +9,7 @@ readnum macro num
         int 21h 
         Sub al,'0'  
         add num,al 
-endm
+endm 
 
 printstring macro msg 
         mov ah,09h
