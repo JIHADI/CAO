@@ -35,7 +35,7 @@ start:
         readnum num 
         mov ax,01
         mov ch,00
-        mov cl,num
+        mov cl,num 
         cmp cx,00
         je skip  
 rpt: 
