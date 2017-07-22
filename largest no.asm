@@ -7,7 +7,7 @@ readnum macro num
     mov num,al  
     mov ah,01h  
     int 21h
-    sub al,'0' 
+    sub al,'0'  
     add num,al
 endm
 
