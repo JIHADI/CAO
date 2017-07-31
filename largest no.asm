@@ -4,7 +4,7 @@ readnum macro num
     sub al,'0' 
     mov bh,0ah   
     mul bh 
-    mov num,al  
+    mov num,al   
     mov ah,01h    
     int 21h 
     sub al,'0'  
