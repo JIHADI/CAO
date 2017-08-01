@@ -1,6 +1,6 @@
 readnum macro num    
         mov ah,01h      
-        int 21h      
+        int 21h       
         Sub al,'0'   
         mov bh,0ah    
         mul bh
@@ -81,7 +81,7 @@ rpt2:
         pop dx
         pop cx
         pop bx
-        pop ax
+        pop ax 
 ret
         hex2asc endp
 code ends
