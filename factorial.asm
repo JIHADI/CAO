@@ -26,7 +26,7 @@ data segment
         num db ?
         result db 20 dup('$')
 data ends
-Code Segment
+Code Segment 
         assume cs:code,ds:data
 start: 
         mov ax,data
