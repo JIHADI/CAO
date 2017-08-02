@@ -11,7 +11,7 @@ readnum macro num
         add num,al 
 endm   
 
-printstring macro msg 
+printstring macro msg  
         mov ah,09h 
         mov dx,offset msg 
         int 21h   
