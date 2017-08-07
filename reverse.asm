@@ -32,7 +32,7 @@ rdchar1:
         mov si , offset Buff
         mov bx,00
 label3:
-        mov al,[si]
+        mov al,[si] 
         cmp al,cr
         je label2
         mov [si] , al
