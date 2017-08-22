@@ -9,7 +9,7 @@ cr equ 0dh
 lf equ 0ah  
 Buff db 80 dup(0)   
 revbuff db 80 dup(0) 
-msg1 db cr,lf ,'Enter the String > $ '
+msg1 db cr,lf ,'Enter the String > $ ' 
 msg2 db cr,lf ,'The Reverse of the String is > $ '
 data ends  
 
@@ -56,7 +56,7 @@ label4:
     mov [di] , al
     String msg2
     String revbuff
-    mov ax, 4c00h
+    mov ax, 4c00h 
     int 21h
     code ends
 
