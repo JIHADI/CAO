@@ -1,7 +1,7 @@
 String macro msg 
 mov ah , 09h
 mov dx , offset msg
-int 21h 
+int 21h  
 endm   
  
 data segment        
