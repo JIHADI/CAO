@@ -48,7 +48,7 @@ label2:
 label4:
         dec si
         mov al ,[si]
-        mov [di], al
+        mov [di], al 
         inc di
         loop label4
 
