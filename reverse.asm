@@ -13,7 +13,7 @@ msg1 db cr,lf ,'Enter the String > $ '
 msg2 db cr,lf ,'The Reverse of the String is > $ '
 data ends   
 
-code segment
+code segment 
 assume cs:code, ds:data
 
 start:  
