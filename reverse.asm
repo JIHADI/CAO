@@ -4,7 +4,7 @@ mov dx , offset msg
 int 21h  
 endm      
       
-data segment          
+data segment           
 cr equ 0dh       
 lf equ 0ah   
 Buff db 80 dup(0)    
